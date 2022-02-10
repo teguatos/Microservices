@@ -1,0 +1,18 @@
+package shoppingservice.client;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+import io.github.resilience4j.circuitbreaker.*;
+import shoppingservice.model.Customer;
+
+@FeignClient(name = "customer-service")
+public interface CustomerClient {
+
+	@CircuitBreaker(name = "customerCB", fallbackMethod = "fallBackGetBikes")
+	@GetMapping(value = "/customers/{id}")
+	public ResponseEntity<Customer> getCustomer(@PathVariable("id") long id);
+	
+}
