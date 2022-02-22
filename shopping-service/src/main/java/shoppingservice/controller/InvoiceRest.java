@@ -27,7 +27,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import shoppingservice.entity.Invoice;
 import shoppingservice.service.InvoiceService;
-
+import shoppingservice.service.HelloService;
 @Slf4j
 @RestController
 @RequestMapping("/invoices")
@@ -35,7 +35,12 @@ public class InvoiceRest {
 
     @Autowired
     InvoiceService invoiceService;
-
+    HelloService helloService = new HelloService();
+    @GetMapping(value = "/test")
+    public ResponseEntity<String> getTest() {
+    	
+        return  ResponseEntity.ok(helloService.sendMessage("ok"));
+    }
     // -------------------Retrieve All Invoices--------------------------------------------
     @GetMapping
     public ResponseEntity<List<Invoice>> listAllInvoices() {

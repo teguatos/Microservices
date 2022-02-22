@@ -1,5 +1,0 @@
-package shoppingservice.client;
-
-public interface CustomerClient {
-
-}

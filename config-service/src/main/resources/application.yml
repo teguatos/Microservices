@@ -5,10 +5,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/teguatos/Microservices.git
-          searchPaths: config-data
+          uri: https://github.com/teguatos/ApplicationConfig.git
+          searchPaths: 
           username: teguatos
-          password: 
+          password: Tegu@molly21403.Sjn
           default-label: "main"
   security:
     user:

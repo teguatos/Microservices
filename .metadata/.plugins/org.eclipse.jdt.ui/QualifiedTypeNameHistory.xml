@@ -1,4 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.springframework.cloud.netflix.eureka.server.EnableEurekaServer"/>
+    <fullyQualifiedTypeName name="grpc.HelloWorldServiceGrpc"/>
+    <fullyQualifiedTypeName name="grpc.HelloWorldServiceGrpc.HelloWorldServiceBlockingStub"/>
+    <fullyQualifiedTypeName name="grpc.Hello"/>
+    <fullyQualifiedTypeName name="shoppingservice.client.CustomerClientService"/>
+    <fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
+    <fullyQualifiedTypeName name="grpc.MyServiceGrpc.MyServiceImplBase"/>
+    <fullyQualifiedTypeName name="net.devh.boot.grpc.server.service.GrpcService"/>
+    <fullyQualifiedTypeName name="grpc.MyServiceGrpc"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="io.grpc.netty.shaded.io.netty.util.ResourceLeakDetector.Level"/>
+    <fullyQualifiedTypeName name="ch.qos.logback.classic.Level"/>
+    <fullyQualifiedTypeName name="io.smallrye.config.ConfigLogging_.logger"/>
+    <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.CoreMessageLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.annotations.common.util.impl.Log_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.cache.spi.SecondLevelCacheLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.EntityManagerMessageLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.log.ConnectionAccessLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.log.ConnectionPoolingLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.log.DeprecationLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.internal.log.UnsupportedLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.hibernate.resource.beans.internal.BeansMessageLogger_.logger"/>
+    <fullyQualifiedTypeName name="org.wildfly.common.ref.Log_.logger"/>
+    <fullyQualifiedTypeName name="shoppingservice.service.HelloService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="lombok.extern.java.Log"/>
+    <fullyQualifiedTypeName name="io.grpc.stub.StreamObserver"/>
+    <fullyQualifiedTypeName name="grpc.Hello.HelloReply"/>
+    <fullyQualifiedTypeName name="grpc.Hello.HelloRequest"/>
+    <fullyQualifiedTypeName name="net.devh.boot.grpc.client.inject.GrpcClient"/>
+    <fullyQualifiedTypeName name="grpc.MyServiceGrpc.MyServiceBlockingStub"/>
+    <fullyQualifiedTypeName name="io.grpc.StatusRuntimeException"/>
 </qualifiedTypeNameHistroy>
