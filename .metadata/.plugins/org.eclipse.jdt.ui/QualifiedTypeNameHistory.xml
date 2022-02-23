@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="grpc.HelloWorldServiceGrpc.HelloWorldServiceBlockingStub"/>
     <fullyQualifiedTypeName name="grpc.Hello"/>
     <fullyQualifiedTypeName name="shoppingservice.client.CustomerClientService"/>
-    <fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
     <fullyQualifiedTypeName name="grpc.MyServiceGrpc.MyServiceImplBase"/>
     <fullyQualifiedTypeName name="net.devh.boot.grpc.server.service.GrpcService"/>
     <fullyQualifiedTypeName name="grpc.MyServiceGrpc"/>
@@ -25,12 +24,22 @@
     <fullyQualifiedTypeName name="org.hibernate.resource.beans.internal.BeansMessageLogger_.logger"/>
     <fullyQualifiedTypeName name="org.wildfly.common.ref.Log_.logger"/>
     <fullyQualifiedTypeName name="shoppingservice.service.HelloService"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="lombok.extern.java.Log"/>
-    <fullyQualifiedTypeName name="io.grpc.stub.StreamObserver"/>
     <fullyQualifiedTypeName name="grpc.Hello.HelloReply"/>
     <fullyQualifiedTypeName name="grpc.Hello.HelloRequest"/>
     <fullyQualifiedTypeName name="net.devh.boot.grpc.client.inject.GrpcClient"/>
     <fullyQualifiedTypeName name="grpc.MyServiceGrpc.MyServiceBlockingStub"/>
     <fullyQualifiedTypeName name="io.grpc.StatusRuntimeException"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="grpc.HelloRequest"/>
+    <fullyQualifiedTypeName name="io.grpc.stub.StreamObserver"/>
+    <fullyQualifiedTypeName name="grpc.HelloReply"/>
+    <fullyQualifiedTypeName name="io.grpc.ManagedChannel"/>
+    <fullyQualifiedTypeName name="io.grpc.ManagedChannelBuilder"/>
+    <fullyQualifiedTypeName name="grpc.getCustomerByIdRequest"/>
+    <fullyQualifiedTypeName name="grpc.getCustomerByIdResponse"/>
+    <fullyQualifiedTypeName name="costumerservice.Repository.entity.Customer"/>
+    <fullyQualifiedTypeName name="grpc.region"/>
+    <fullyQualifiedTypeName name="grpc.getCustomersRequest"/>
+    <fullyQualifiedTypeName name="grpc.getCustomersResponse"/>
 </qualifiedTypeNameHistroy>
