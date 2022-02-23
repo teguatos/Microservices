@@ -5,7 +5,10 @@ option java_package = "grpc";
 
 service MyService {
   rpc SayHello(HelloRequest) returns (HelloReply) {}
+  rpc getCustomerById(getCustomerByIdRequest) returns (getCustomerByIdResponse) {}
+  rpc getCustomers(getCustomersRequest) returns (getCustomersResponse) {}
 }
+
 
 // The request message containing the user's name.
 message HelloRequest {
@@ -15,4 +18,32 @@ message HelloRequest {
 // The response message containing the greetings
 message HelloReply {
     string message = 1;
+}
+
+message getCustomerByIdRequest {
+    int64 Id = 1;
+}
+
+message getCustomerByIdResponse {
+    int64 Id = 1;
+    string numerId = 2;
+    string firstName = 3;
+    string lastName = 4;
+    string email = 5;
+    string photoUrl = 6;
+    region region = 7;
+    string state = 8;
+}
+
+message region{
+	int64 Id = 1;
+	string name = 2;
+}
+
+message getCustomersRequest{
+
+}
+
+message getCustomersResponse{
+ 	repeated getCustomerByIdResponse customers = 1;
 }
